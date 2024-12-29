@@ -1,0 +1,12 @@
+{
+  "name": "wait-until-exist",
+  "version": "1.0.0",
+  "description": "A utility to wait until an element exists in Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cypress", "wait", "retry", "dom", "test"],
+  "author": "Hit Shiroya",
+  "license": "MIT"
+}
