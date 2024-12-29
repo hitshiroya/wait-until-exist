@@ -1,6 +1,6 @@
 // commands.js
-const waitUntilExist = require('./index');
+import waitUntilExist from './index';
 
-Cypress.Commands.add('waitUntilExist', (selector, timeout = 30000) => {
-    return waitUntilExist(selector, timeout);
+Cypress.Commands.add('waitUntilExist', (selector, attempts = 10) => {
+    return waitUntilExist(selector, attempts);
 });
